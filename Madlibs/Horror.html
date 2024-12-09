@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intro to Javascript</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/myStyles.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- heading -->
+    <header id="head">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6 text-white">
+                    <h1>Night of Horror</h1>
+                    <p>The Story of Alena</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- content -->
+    <section>
+        <div class="container py-5">
+
+    <!-- input fields -->
+            <div class="row">
+                <div class="col-sm-6 mx-auto">
+                    <h2>Welcome to Night of Horror</h2>
+                    <p>Let's begin! Fill out the forms below.</p>
+
+                    <form action="javascript:write();">
+                        <div class="form-group">
+                            <label for="verb">Verb:</label>
+                            <input class="form-control" type="text" id="verb">
+                        </div>
+                        <div class="form-group">
+                            <label for="adjective">Adjective:</label>
+                            <input class="form-control" type="text" id="adjective">
+                        </div>
+                        <div class="form-group">
+                            <label for="verb2">Verb + ing:</label>
+                            <input class="form-control" type="text" id="verb2">
+                        </div>
+                        <div class="form-group">
+                            <label for="verb3">Verb:</label>
+                            <input class="form-control" type="text" id="verb3">
+                        </div>
+                        <div class="form-group">
+                            <label for="noun">Noun:</label>
+                            <input class="form-control" type="text" id="noun">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="place">Place:</label>
+                            <input class="form-control" type="text" id="place">
+                        </div>
+                        <div class="form-group">
+                            <label for="verb4">Verb (Past tense) :</label>
+                            <input class="form-control" type="text" id="verb4">
+                        </div>
+                        <div class="form-group">
+                            <label for="body">Part of the body:</label>
+                            <input class="form-control" type="text" id="body">
+                        </div>
+                        <div class="form-group">
+                            <label for="emotion">Emotion:</label>
+                            <input class="form-control" type="text" id="emotion">
+                        </div>
+                        <div class="form-group">
+                            <label for="verb">Noun:</label>
+                            <input class="form-control" type="text" id="noun2">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Is the story legit?</label>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" value="yes" id="yes" name="option">Yes, it is true.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" value="no" id="no" name="option">No, I don&apos;t think so. 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" value="maybe" id="maybe" name="option">Maybe, I will think about it.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" value="comment" id="comment" name="option">No Comment.
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-block btn-outline-danger">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <br>
+
+            <!-- your output here -->
+            <div class="row">
+                <div id="output" class="col-sm-6 mx-auto p-5 rounded text-white">
+        
+             </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="bg-dark">
+        <div class="container text-white text-center p-5 mt-5">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Design by: Mark harold Resueno</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/formHandler.js"></script>
+
+
+</body>
+
+</html>

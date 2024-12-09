@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+#head {
+    text-align: left;
+    padding-top: 50px;
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+}
+
+#head p {
+    text-align: left;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+header{
+    background-image: url("");
+
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    opacity: 80%;
+    background-image: url("../images/moon.jpg");
+}
+
+body {
+    background-image: url("../images/car.jpg");
+    background-position: center;
+    background-position: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+label, h2, p {
+    color: white;
+}
+
+h2, p {
+    text-align: center;
+}
+
+.btn-outline-danger {
+    border-color: orange;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
