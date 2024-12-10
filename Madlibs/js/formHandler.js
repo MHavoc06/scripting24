@@ -1,6 +1,4 @@
 
-console.log("ambot");
-
 function write(){
     console.log("write function is functional");
 
